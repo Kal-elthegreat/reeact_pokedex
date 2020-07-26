@@ -1,25 +1,17 @@
 import React from 'react';
 import Proptypes from 'prop-types';
+import "./index.css"
 
 
 function MoveList (props) {
     const {moves} = props;
-// console.log(moveArray)
-    // moves.forEach((move) => {
-    //     let li = document.createElement('LI');
-    //     li.innerHTML = move.move.name;
-    //     document.body.appendChild(li)
-    // })
-
-
     return (
-       <ul>
-         {moves.forEach((move) => {
-         return <li>{move.move.name}</li>
-        })}
-           
-       </ul>
-    )
+      <div className="moves-container">
+          {moves.map((move) => {
+            return <div className="move-list"><li>{move.move.name}</li></div>;
+          })}
+      </div>
+    );
 }
     MoveList.propTypes = {
         moves: Proptypes.array.isRequired,
