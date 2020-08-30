@@ -1,3 +1,10 @@
+.moves-container {
+    border: 5px solid black;
+    border-radius: 10px;
+    background: #d6cdcd;
+    margin-top: 30px;
+}
+
 .moves-list {
     display: flex;
     justify-content: space-evenly;
