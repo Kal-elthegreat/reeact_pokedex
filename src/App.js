@@ -3,6 +3,7 @@ import { getPokemon } from "./services/pokeData";
 import "./App.css";
 import Header from "./components/Header";
 import MoveList from "./components/MoveList";
+// import Controls from "./components/Controls";
 
 function App() {
   const [pokeData, setPokeData] = useState(null);
@@ -38,6 +39,7 @@ function App() {
           <div className="info">
             <MoveList moves={pokeData.moves} />
           </div>
+          {/* <Controls id= {id} isLoading={loading} /> */}
           <div className="controls">
             <button
               style={{ width: 100 }}

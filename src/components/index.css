@@ -1,12 +1,20 @@
-.moves-container {
+.moves-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: fit-content;
-    width: fit-content;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    list-style: none;
+    padding: 7px;
 }
 
-.move-list {
+.individual-move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
     border: 1px solid #000000;
-    padding: 5px 5px
+    width: 110px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
 }

@@ -7,9 +7,11 @@ function MoveList (props) {
     const {moves} = props;
     return (
       <div className="moves-container">
+        <ul className="moves-list">
           {moves.map((move) => {
-            return <div className="move-list"><li>{move.move.name}</li></div>;
+            return <div className="individual-move"><li>{move.move.name}</li></div>;
           })}
+        </ul>
       </div>
     );
 }
