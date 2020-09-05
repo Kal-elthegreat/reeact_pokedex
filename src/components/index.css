@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .moves-container {
     border: 5px solid black;
     border-radius: 10px;
@@ -19,7 +23,7 @@
     align-items: center;
     background-color: #ffffff;
     border: 1px solid #000000;
-    width: 110px;
+    width: 115px;
     border-radius: 10px;
     font-size: 14px;
     padding: 5px 5px;

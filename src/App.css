@@ -44,7 +44,7 @@
   align-items: center;
   background-color: firebrick;
   height: fit-content;
-  width: 500px;
+  /* width: 500px;  looks better w/ this out need to pull controls up though*/ 
   border-radius: 4px;
 }
 
